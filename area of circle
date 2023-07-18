@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    float R,Area;
+    printf("please enter the radius:");
+    scanf("%f",&R);
+    Area=3.1416*R*R;
+    printf("the area is = %.5f\n",Area);
+    return 0;
+}
