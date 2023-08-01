@@ -8,7 +8,7 @@ int main()
     {
         printf("The large number is: %d\n",A);
     }
-    else if((B>A)||(B>=C))
+    else if((B>A)&&(B>=C))
     {
         printf("The large number is: %d\n",B);
     }
